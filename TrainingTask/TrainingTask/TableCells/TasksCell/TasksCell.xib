@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="TasksCell" customModule="TrainingTask" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cEP-OI-oXb">
+                        <rect key="frame" x="16" y="10" width="20" height="20"/>
+                        <color key="backgroundColor" systemColor="labelColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="ZEx-Ow-c4n"/>
+                            <constraint firstAttribute="width" constant="20" id="g9R-7Q-mvZ"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Наимен. задачи " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bya-VH-ld7">
+                        <rect key="frame" x="51" y="8" width="132" height="26"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Наимен. проекта" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FMf-hz-WCc">
+                        <rect key="frame" x="167.5" y="8" width="136.5" height="26"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="bya-VH-ld7" secondAttribute="bottom" constant="10" id="0wm-du-Ouo"/>
+                    <constraint firstItem="bya-VH-ld7" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="FlY-rS-pMx"/>
+                    <constraint firstAttribute="bottom" secondItem="FMf-hz-WCc" secondAttribute="bottom" constant="10" id="Ile-Tn-2By"/>
+                    <constraint firstItem="cEP-OI-oXb" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="TxI-dV-JmQ"/>
+                    <constraint firstAttribute="trailing" secondItem="FMf-hz-WCc" secondAttribute="trailing" constant="16" id="Zgp-P1-xl7"/>
+                    <constraint firstItem="FMf-hz-WCc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="bPZ-AN-sPG"/>
+                    <constraint firstItem="bya-VH-ld7" firstAttribute="leading" secondItem="cEP-OI-oXb" secondAttribute="trailing" constant="15" id="hf5-cW-22p"/>
+                    <constraint firstItem="cEP-OI-oXb" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="xZg-wX-gAc"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="nameProjectLabel" destination="FMf-hz-WCc" id="jze-ZM-Oac"/>
+                <outlet property="nameTaskLabel" destination="bya-VH-ld7" id="ACn-3w-tRs"/>
+                <outlet property="statusTaskView" destination="cEP-OI-oXb" id="5T9-IW-X9F"/>
+            </connections>
+            <point key="canvasLocation" x="48" y="48"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

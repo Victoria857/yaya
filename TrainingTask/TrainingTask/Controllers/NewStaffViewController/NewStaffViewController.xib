@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NewStaffViewController" customModule="TrainingTask" customModuleProvider="target">
+            <connections>
+                <outlet property="employeePositionTextField" destination="xeb-a3-yzb" id="5HG-dA-C58"/>
+                <outlet property="nameStaffTextField" destination="cph-VK-T5v" id="akO-Ry-jz0"/>
+                <outlet property="patronymicStaffTextField" destination="uVi-Q2-GR1" id="5xR-zo-m4u"/>
+                <outlet property="surnameStaffTextField" destination="SsN-yq-SCe" id="Amg-Pd-oh5"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <navigationBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hd5-Tb-4Yf">
+                    <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                    <items>
+                        <navigationItem title="Добавление нового сотрудника" id="mAo-3h-cUH"/>
+                    </items>
+                </navigationBar>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Имя сотрудника" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cph-VK-T5v">
+                    <rect key="frame" x="24" y="128" width="370" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="TaU-Xh-3Bg"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Фамилия сотрудника" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SsN-yq-SCe">
+                    <rect key="frame" x="24" y="188" width="370" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="ElT-lZ-RT4"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Отчество сотрудника" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uVi-Q2-GR1">
+                    <rect key="frame" x="24" y="248" width="370" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="sD2-M3-0eE"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Должность сотрудника" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xeb-a3-yzb">
+                    <rect key="frame" x="24" y="308" width="370" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="hhc-Ni-G8x"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rLL-JP-FfH">
+                    <rect key="frame" x="24" y="368" width="370" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="04K-ie-tmI"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="filled" title="Сохранить"/>
+                    <connections>
+                        <action selector="didTapSaveButton:" destination="-1" eventType="touchUpInside" id="aPt-4y-3Bl"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="rLL-JP-FfH" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="24" id="17l-EU-2A9"/>
+                <constraint firstItem="xeb-a3-yzb" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="24" id="6YR-wt-J75"/>
+                <constraint firstItem="hd5-Tb-4Yf" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="GCa-Xy-pgX"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="cph-VK-T5v" secondAttribute="trailing" constant="20" id="HC4-BF-tdF"/>
+                <constraint firstItem="cph-VK-T5v" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="24" id="I9h-F9-Dw4"/>
+                <constraint firstItem="uVi-Q2-GR1" firstAttribute="top" secondItem="SsN-yq-SCe" secondAttribute="bottom" constant="20" id="K5a-Kp-RAV"/>
+                <constraint firstItem="hd5-Tb-4Yf" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="StT-0F-BF4"/>
+                <constraint firstItem="xeb-a3-yzb" firstAttribute="top" secondItem="uVi-Q2-GR1" secondAttribute="bottom" constant="20" id="VVc-G2-HHR"/>
+                <constraint firstItem="cph-VK-T5v" firstAttribute="top" secondItem="hd5-Tb-4Yf" secondAttribute="bottom" constant="40" id="Veq-h2-5fD"/>
+                <constraint firstItem="hd5-Tb-4Yf" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="XXN-qa-7mV"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="uVi-Q2-GR1" secondAttribute="trailing" constant="20" id="Xgo-Hr-aRH"/>
+                <constraint firstItem="uVi-Q2-GR1" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="24" id="Xq8-ir-J4C"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="rLL-JP-FfH" secondAttribute="trailing" constant="20" id="crP-PE-Dq1"/>
+                <constraint firstItem="SsN-yq-SCe" firstAttribute="top" secondItem="cph-VK-T5v" secondAttribute="bottom" constant="20" id="eN2-fz-3Pt"/>
+                <constraint firstItem="rLL-JP-FfH" firstAttribute="top" secondItem="xeb-a3-yzb" secondAttribute="bottom" constant="20" id="rfv-rl-aBc"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="xeb-a3-yzb" secondAttribute="trailing" constant="20" id="sxM-Sv-QxS"/>
+                <constraint firstItem="SsN-yq-SCe" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="24" id="tJw-dT-0wy"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="SsN-yq-SCe" secondAttribute="trailing" constant="20" id="zA3-o6-zzj"/>
+            </constraints>
+            <point key="canvasLocation" x="145" y="140"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

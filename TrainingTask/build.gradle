@@ -1,0 +1,33 @@
+buildscript {
+    repositories {
+        maven {
+            url('http://repository.openbakery.org')
+            allowInsecureProtocol = true
+        }
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath "org.openbakery:xcode-plugin:0.22.+"
+    }
+}
+
+apply plugin: 'org.openbakery.xcode-plugin'
+
+xcodebuild {
+    scheme = 'TrainingTask'
+    target = 'TrainingTask'
+    configuration = 'Release'
+    simulator = false
+
+    signing {
+        mobileProvisionURI = [ 
+            new File(projectDir, "certificates/comqulixvtishkovskayatrainingtaskinHouse.mobileprovision").toURI(), 
+        ] 
+        certificateURI = new File(projectDir, "certificates/certificate.p12").toURI()
+        certificatePassword = 'WV3yY3sIF6Lt'
+        identity = 'iPhone Distribution: Qulix UK LTD'
+    }
+}
+
+build.dependsOn = ['archive', 'package']

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SettingsViewController" customModule="TrainingTask" customModuleProvider="target">
+            <connections>
+                <outlet property="maxQuantityTextField" destination="0BV-P5-bhm" id="PQh-ZP-oAI"/>
+                <outlet property="quantityBetweenDateTextField" destination="pFT-xC-5aS" id="fNr-ZN-GDE"/>
+                <outlet property="urlServerTextField" destination="uYI-EX-Wuz" id="lsV-3c-q0A"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <navigationBar contentMode="scaleToFill" translucent="NO" largeTitles="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dgb-Rr-na2">
+                    <rect key="frame" x="0.0" y="14" width="414" height="96"/>
+                    <items>
+                        <navigationItem title="Настройки" id="BC7-Wr-DKP"/>
+                    </items>
+                </navigationBar>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="URL сервера" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uYI-EX-Wuz">
+                    <rect key="frame" x="24" y="150" width="370" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="MCV-tr-UWX"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Максимальное количество записей в списках" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0BV-P5-bhm">
+                    <rect key="frame" x="24" y="210" width="370" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="bjP-3Y-hhy"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Кол-во дней между начальной и конечной датами в задаче" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pFT-xC-5aS">
+                    <rect key="frame" x="24" y="270" width="370" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="DiY-Ol-5Bs"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ylW-WL-R1K">
+                    <rect key="frame" x="24" y="330" width="370" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="dI3-tO-MZ0"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="filled" title="Сохранить"/>
+                    <connections>
+                        <action selector="didTapSaveButton:" destination="-1" eventType="touchUpInside" id="w17-5N-0te"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ylW-WL-R1K" secondAttribute="trailing" constant="20" id="6OJ-ZD-dJF"/>
+                <constraint firstItem="0BV-P5-bhm" firstAttribute="top" secondItem="uYI-EX-Wuz" secondAttribute="bottom" constant="20" id="7vB-mP-QnZ"/>
+                <constraint firstItem="dgb-Rr-na2" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="EEA-4d-6Bu"/>
+                <constraint firstItem="ylW-WL-R1K" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="24" id="GOy-8T-JCk"/>
+                <constraint firstItem="0BV-P5-bhm" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="24" id="IUJ-8V-HAi"/>
+                <constraint firstItem="pFT-xC-5aS" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="24" id="IXh-1f-ItM"/>
+                <constraint firstItem="uYI-EX-Wuz" firstAttribute="top" secondItem="dgb-Rr-na2" secondAttribute="bottom" constant="40" id="N17-ik-fup"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="0BV-P5-bhm" secondAttribute="trailing" constant="20" id="Thx-4k-56a"/>
+                <constraint firstItem="ylW-WL-R1K" firstAttribute="top" secondItem="pFT-xC-5aS" secondAttribute="bottom" constant="20" id="ezv-8q-tdl"/>
+                <constraint firstItem="uYI-EX-Wuz" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="24" id="jlg-d9-vIk"/>
+                <constraint firstItem="dgb-Rr-na2" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="qkc-7Z-nZv"/>
+                <constraint firstItem="dgb-Rr-na2" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="-30" id="tZj-df-xxc"/>
+                <constraint firstItem="pFT-xC-5aS" firstAttribute="top" secondItem="0BV-P5-bhm" secondAttribute="bottom" constant="20" id="uzV-re-R6n"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="pFT-xC-5aS" secondAttribute="trailing" constant="20" id="w3Z-1G-IsI"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="uYI-EX-Wuz" secondAttribute="trailing" constant="20" id="yFX-7o-JFU"/>
+            </constraints>
+            <point key="canvasLocation" x="132" y="111"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
