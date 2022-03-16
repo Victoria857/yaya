@@ -1,0 +1,270 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -scheme TrainingTask -configuration Release CODE_SIGN_IDENTITY= CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO -derivedDataPath /Users/tishkovskayavs/Desktop/TrainingTask/build/derivedData DSTROOT=/Users/tishkovskayavs/Desktop/TrainingTask/build/dst OBJROOT=/Users/tishkovskayavs/Desktop/TrainingTask/build/obj SYMROOT=/Users/tishkovskayavs/Desktop/TrainingTask/build/sym SHARED_PRECOMPS_DIR=/Users/tishkovskayavs/Desktop/TrainingTask/build/shared -destination generic/platform=iOS COMPILER_INDEX_STORE_ENABLE=NO
+
+User defaults from command line:
+    IDEDerivedDataPathOverride = /Users/tishkovskayavs/Desktop/TrainingTask/build/derivedData
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Build settings from command line:
+    CODE_SIGN_IDENTITY = 
+    CODE_SIGNING_ALLOWED = NO
+    CODE_SIGNING_REQUIRED = NO
+    COMPILER_INDEX_STORE_ENABLE = NO
+    DSTROOT = /Users/tishkovskayavs/Desktop/TrainingTask/build/dst
+    OBJROOT = /Users/tishkovskayavs/Desktop/TrainingTask/build/obj
+    SHARED_PRECOMPS_DIR = /Users/tishkovskayavs/Desktop/TrainingTask/build/shared
+    SYMROOT = /Users/tishkovskayavs/Desktop/TrainingTask/build/sym
+
+note: Using new build system
+note: Using codesigning identity override: 
+note: Planning
+Analyze workspace
+
+Create build description
+Build description signature: 36fe1a3900117ae3ea5604b907bf5447
+Build description path: /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/XCBuildData/36fe1a3900117ae3ea5604b907bf5447-desc.xcbuild
+
+note: Build preparation complete
+note: Building targets in dependency order
+CreateBuildDirectory /Users/tishkovskayavs/Desktop/TrainingTask/build/obj
+    cd /Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask.xcodeproj
+    builtin-create-build-directory /Users/tishkovskayavs/Desktop/TrainingTask/build/obj
+
+CreateBuildDirectory /Users/tishkovskayavs/Desktop/TrainingTask/build/sym
+    cd /Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask.xcodeproj
+    builtin-create-build-directory /Users/tishkovskayavs/Desktop/TrainingTask/build/sym
+
+CreateBuildDirectory /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos
+    cd /Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask.xcodeproj
+    builtin-create-build-directory /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos
+
+MkDir /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.app (in target 'TrainingTask' from project 'TrainingTask')
+    cd /Users/tishkovskayavs/Desktop/TrainingTask
+    /bin/mkdir -p /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.app
+
+WriteAuxiliaryFile /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/TrainingTask-all-target-headers.hmap (in target 'TrainingTask' from project 'TrainingTask')
+    cd /Users/tishkovskayavs/Desktop/TrainingTask
+    write-file /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/TrainingTask-all-target-headers.hmap
+
+WriteAuxiliaryFile /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/TrainingTask-generated-files.hmap (in target 'TrainingTask' from project 'TrainingTask')
+    cd /Users/tishkovskayavs/Desktop/TrainingTask
+    write-file /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/TrainingTask-generated-files.hmap
+
+WriteAuxiliaryFile /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/TrainingTask-all-non-framework-target-headers.hmap (in target 'TrainingTask' from project 'TrainingTask')
+    cd /Users/tishkovskayavs/Desktop/TrainingTask
+    write-file /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/TrainingTask-all-non-framework-target-headers.hmap
+
+WriteAuxiliaryFile /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/TrainingTask-own-target-headers.hmap (in target 'TrainingTask' from project 'TrainingTask')
+    cd /Users/tishkovskayavs/Desktop/TrainingTask
+    write-file /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/TrainingTask-own-target-headers.hmap
+
+WriteAuxiliaryFile /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/TrainingTask-project-headers.hmap (in target 'TrainingTask' from project 'TrainingTask')
+    cd /Users/tishkovskayavs/Desktop/TrainingTask
+    write-file /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/TrainingTask-project-headers.hmap
+
+WriteAuxiliaryFile /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/TrainingTask.hmap (in target 'TrainingTask' from project 'TrainingTask')
+    cd /Users/tishkovskayavs/Desktop/TrainingTask
+    write-file /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/TrainingTask.hmap
+
+WriteAuxiliaryFile /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/all-product-headers.yaml (in target 'TrainingTask' from project 'TrainingTask')
+    cd /Users/tishkovskayavs/Desktop/TrainingTask
+    write-file /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/all-product-headers.yaml
+
+WriteAuxiliaryFile /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/Objects-normal/arm64/TrainingTask-OutputFileMap.json (in target 'TrainingTask' from project 'TrainingTask')
+    cd /Users/tishkovskayavs/Desktop/TrainingTask
+    write-file /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/Objects-normal/arm64/TrainingTask-OutputFileMap.json
+
+WriteAuxiliaryFile /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/Objects-normal/arm64/TrainingTask.LinkFileList (in target 'TrainingTask' from project 'TrainingTask')
+    cd /Users/tishkovskayavs/Desktop/TrainingTask
+    write-file /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/Objects-normal/arm64/TrainingTask.LinkFileList
+
+WriteAuxiliaryFile /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/Objects-normal/arm64/TrainingTask.SwiftFileList (in target 'TrainingTask' from project 'TrainingTask')
+    cd /Users/tishkovskayavs/Desktop/TrainingTask
+    write-file /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/Objects-normal/arm64/TrainingTask.SwiftFileList
+
+CompileSwiftSources normal arm64 com.apple.xcode.tools.swift.compiler (in target 'TrainingTask' from project 'TrainingTask')
+    cd /Users/tishkovskayavs/Desktop/TrainingTask
+    export DEVELOPER_DIR\=/Applications/Xcode.app/Contents/Developer
+    export SDKROOT\=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -incremental -module-name TrainingTask -O -whole-module-optimization -enforce-exclusivity\=checked @/Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/Objects-normal/arm64/TrainingTask.SwiftFileList -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk -target arm64-apple-ios11.0 -g -module-cache-path /Users/tishkovskayavs/Desktop/TrainingTask/build/derivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -embed-bitcode-marker -swift-version 5 -I /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos -F /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos -emit-localized-strings -emit-localized-strings-path /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/Objects-normal/arm64 -c -num-threads 12 -output-file-map /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/Objects-normal/arm64/TrainingTask-OutputFileMap.json -parseable-output -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/Objects-normal/arm64/TrainingTask.swiftmodule -Xcc -I/Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/TrainingTask-generated-files.hmap -Xcc -I/Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/TrainingTask-own-target-headers.hmap -Xcc -I/Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/TrainingTask-all-target-headers.hmap -Xcc -iquote -Xcc /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/TrainingTask-project-headers.hmap -Xcc -I/Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/include -Xcc -I/Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/DerivedSources-normal/arm64 -Xcc -I/Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/DerivedSources/arm64 -Xcc -I/Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/DerivedSources -emit-objc-header -emit-objc-header-path /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/Objects-normal/arm64/TrainingTask-Swift.h -working-directory /Users/tishkovskayavs/Desktop/TrainingTask
+remark: Incremental compilation has been disabled: it is not compatible with whole module optimization
+
+CompileSwift normal arm64 (in target 'TrainingTask' from project 'TrainingTask')
+    cd /Users/tishkovskayavs/Desktop/TrainingTask
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift-frontend -frontend -c /Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Controllers/MainViewController/MainViewController.swift /Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/TableCells/TasksCell/TasksCell.swift /Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Controllers/NewProjectViewController/NewProjectViewController.swift /Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Controllers/NewStaffViewController/NewStaffViewController.swift /Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/AppDelegate.swift /Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Models/BaseStaff.swift /Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Controllers/NewTasksViewController/NewTasksViewController.swift /Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Models/BaseTask.swift /Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/TableCells/ProjectCell/ProjectCell.swift /Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Models/BaseProject.swift /Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/NetworkManager.swift /Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Controllers/ProjectViewController/ProjectViewController.swift /Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Controllers/TasksViewController/TasksViewController.swift /Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Controllers/SettingsViewController/SettingsViewController.swift /Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/TableCells/StaffCell/StaffCell.swift /Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Controllers/StaffViewController/StaffViewController.swift -supplementary-output-file-map /var/folders/lr/wwnlk15521928x9n8jbl4jjwg3lkpf/T/TemporaryDirectory.7STRQU/supplementaryOutputs-1 -target arm64-apple-ios11.0 -Xllvm -aarch64-use-tbi -enable-objc-interop -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk -I /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos -F /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos -g -module-cache-path /Users/tishkovskayavs/Desktop/TrainingTask/build/derivedData/ModuleCache.noindex -emit-localized-strings -emit-localized-strings-path /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/Objects-normal/arm64 -swift-version 5 -enforce-exclusivity\=checked -O -new-driver-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift-driver -serialize-debugging-options -Xcc -working-directory -Xcc /Users/tishkovskayavs/Desktop/TrainingTask -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift -Xcc -I/Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/TrainingTask-generated-files.hmap -Xcc -I/Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/TrainingTask-own-target-headers.hmap -Xcc -I/Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/TrainingTask-all-target-headers.hmap -Xcc -iquote -Xcc /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/TrainingTask-project-headers.hmap -Xcc -I/Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/include -Xcc -I/Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/DerivedSources-normal/arm64 -Xcc -I/Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/DerivedSources/arm64 -Xcc -I/Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/DerivedSources -module-name TrainingTask -target-sdk-version 15.2.0 -num-threads 12 -o /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/Objects-normal/arm64/MainViewController.o -o /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/Objects-normal/arm64/TasksCell.o -o /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/Objects-normal/arm64/NewProjectViewController.o -o /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/Objects-normal/arm64/NewStaffViewController.o -o /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/Objects-normal/arm64/AppDelegate.o -o /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/Objects-normal/arm64/BaseStaff.o -o /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/Objects-normal/arm64/NewTasksViewController.o -o /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/Objects-normal/arm64/BaseTask.o -o /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/Objects-normal/arm64/ProjectCell.o -o /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/Objects-normal/arm64/BaseProject.o -o /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/Objects-normal/arm64/NetworkManager.o -o /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/Objects-normal/arm64/ProjectViewController.o -o /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/Objects-normal/arm64/TasksViewController.o -o /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/Objects-normal/arm64/SettingsViewController.o -o /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/Objects-normal/arm64/StaffCell.o -o /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/Objects-normal/arm64/StaffViewController.o -embed-bitcode-marker
+
+Ld /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.app/TrainingTask normal (in target 'TrainingTask' from project 'TrainingTask')
+    cd /Users/tishkovskayavs/Desktop/TrainingTask
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target arm64-apple-ios11.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk -L/Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos -F/Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos -filelist /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/Objects-normal/arm64/TrainingTask.LinkFileList -Xlinker -rpath -Xlinker /usr/lib/swift -Xlinker -rpath -Xlinker @executable_path/Frameworks -dead_strip -Xlinker -object_path_lto -Xlinker /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/Objects-normal/arm64/TrainingTask_lto.o -fembed-bitcode-marker -fobjc-link-runtime -L/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/Objects-normal/arm64/TrainingTask.swiftmodule -Xlinker -dependency_info -Xlinker /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/Objects-normal/arm64/TrainingTask_dependency_info.dat -o /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.app/TrainingTask
+
+PBXCp /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/Objects-normal/arm64/TrainingTask.swiftdoc /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.swiftmodule/arm64.swiftdoc (in target 'TrainingTask' from project 'TrainingTask')
+    cd /Users/tishkovskayavs/Desktop/TrainingTask
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/Objects-normal/arm64/TrainingTask.swiftdoc /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.swiftmodule/arm64.swiftdoc
+
+PBXCp /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/Objects-normal/arm64/TrainingTask.swiftdoc /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.swiftmodule/arm64-apple-ios.swiftdoc (in target 'TrainingTask' from project 'TrainingTask')
+    cd /Users/tishkovskayavs/Desktop/TrainingTask
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/Objects-normal/arm64/TrainingTask.swiftdoc /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.swiftmodule/arm64-apple-ios.swiftdoc
+
+PBXCp /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/Objects-normal/arm64/TrainingTask.swiftmodule /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.swiftmodule/arm64-apple-ios.swiftmodule (in target 'TrainingTask' from project 'TrainingTask')
+    cd /Users/tishkovskayavs/Desktop/TrainingTask
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/Objects-normal/arm64/TrainingTask.swiftmodule /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.swiftmodule/arm64-apple-ios.swiftmodule
+
+PBXCp /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/Objects-normal/arm64/TrainingTask.swiftmodule /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.swiftmodule/arm64.swiftmodule (in target 'TrainingTask' from project 'TrainingTask')
+    cd /Users/tishkovskayavs/Desktop/TrainingTask
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/Objects-normal/arm64/TrainingTask.swiftmodule /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.swiftmodule/arm64.swiftmodule
+
+PBXCp /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/Objects-normal/arm64/TrainingTask-Swift.h /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/DerivedSources/TrainingTask-Swift.h (in target 'TrainingTask' from project 'TrainingTask')
+    cd /Users/tishkovskayavs/Desktop/TrainingTask
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/Objects-normal/arm64/TrainingTask-Swift.h /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/DerivedSources
+
+PBXCp /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/Objects-normal/arm64/TrainingTask.swiftsourceinfo /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.swiftmodule/Project/arm64.swiftsourceinfo (in target 'TrainingTask' from project 'TrainingTask')
+    cd /Users/tishkovskayavs/Desktop/TrainingTask
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/Objects-normal/arm64/TrainingTask.swiftsourceinfo /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.swiftmodule/Project/arm64.swiftsourceinfo
+
+PBXCp /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/Objects-normal/arm64/TrainingTask.swiftsourceinfo /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo (in target 'TrainingTask' from project 'TrainingTask')
+    cd /Users/tishkovskayavs/Desktop/TrainingTask
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/Objects-normal/arm64/TrainingTask.swiftsourceinfo /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo
+
+CompileXIB /Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/TableCells/TasksCell/TasksCell.xib (in target 'TrainingTask' from project 'TrainingTask')
+    cd /Users/tishkovskayavs/Desktop/TrainingTask
+    export XCODE_DEVELOPER_USR_PATH\=/Applications/Xcode.app/Contents/Developer/usr/bin/..
+    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --module TrainingTask --output-partial-info-plist /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/TasksCell-PartialInfo.plist --auto-activate-custom-fonts --target-device iphone --target-device ipad --minimum-deployment-target 11.0 --output-format human-readable-text --compile /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.app/TasksCell.nib /Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/TableCells/TasksCell/TasksCell.xib
+
+CompileXIB /Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/TableCells/StaffCell/StaffCell.xib (in target 'TrainingTask' from project 'TrainingTask')
+    cd /Users/tishkovskayavs/Desktop/TrainingTask
+    export XCODE_DEVELOPER_USR_PATH\=/Applications/Xcode.app/Contents/Developer/usr/bin/..
+    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --module TrainingTask --output-partial-info-plist /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/StaffCell-PartialInfo.plist --auto-activate-custom-fonts --target-device iphone --target-device ipad --minimum-deployment-target 11.0 --output-format human-readable-text --compile /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.app/StaffCell.nib /Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/TableCells/StaffCell/StaffCell.xib
+
+CompileXIB /Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Controllers/TasksViewController/TasksViewController.xib (in target 'TrainingTask' from project 'TrainingTask')
+    cd /Users/tishkovskayavs/Desktop/TrainingTask
+    export XCODE_DEVELOPER_USR_PATH\=/Applications/Xcode.app/Contents/Developer/usr/bin/..
+    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --module TrainingTask --output-partial-info-plist /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/TasksViewController-PartialInfo.plist --auto-activate-custom-fonts --target-device iphone --target-device ipad --minimum-deployment-target 11.0 --output-format human-readable-text --compile /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.app/TasksViewController.nib /Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Controllers/TasksViewController/TasksViewController.xib
+/* com.apple.ibtool.document.warnings */
+/Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Controllers/TasksViewController/TasksViewController.xib:nPZ-qH-ppZ: warning: Large Style before iOS 13.0 [9]
+
+CompileXIB /Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/TableCells/ProjectCell/ProjectCell.xib (in target 'TrainingTask' from project 'TrainingTask')
+    cd /Users/tishkovskayavs/Desktop/TrainingTask
+    export XCODE_DEVELOPER_USR_PATH\=/Applications/Xcode.app/Contents/Developer/usr/bin/..
+    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --module TrainingTask --output-partial-info-plist /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/ProjectCell-PartialInfo.plist --auto-activate-custom-fonts --target-device iphone --target-device ipad --minimum-deployment-target 11.0 --output-format human-readable-text --compile /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.app/ProjectCell.nib /Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/TableCells/ProjectCell/ProjectCell.xib
+
+CompileXIB /Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Controllers/StaffViewController/StaffViewController.xib (in target 'TrainingTask' from project 'TrainingTask')
+    cd /Users/tishkovskayavs/Desktop/TrainingTask
+    export XCODE_DEVELOPER_USR_PATH\=/Applications/Xcode.app/Contents/Developer/usr/bin/..
+    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --module TrainingTask --output-partial-info-plist /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/StaffViewController-PartialInfo.plist --auto-activate-custom-fonts --target-device iphone --target-device ipad --minimum-deployment-target 11.0 --output-format human-readable-text --compile /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.app/StaffViewController.nib /Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Controllers/StaffViewController/StaffViewController.xib
+/* com.apple.ibtool.document.warnings */
+/Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Controllers/StaffViewController/StaffViewController.xib:tAO-Nv-N27: warning: Large Style before iOS 13.0 [9]
+
+CompileXIB /Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Controllers/NewTasksViewController/NewTasksViewController.xib (in target 'TrainingTask' from project 'TrainingTask')
+    cd /Users/tishkovskayavs/Desktop/TrainingTask
+    export XCODE_DEVELOPER_USR_PATH\=/Applications/Xcode.app/Contents/Developer/usr/bin/..
+    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --module TrainingTask --output-partial-info-plist /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/NewTasksViewController-PartialInfo.plist --auto-activate-custom-fonts --target-device iphone --target-device ipad --minimum-deployment-target 11.0 --output-format human-readable-text --compile /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.app/NewTasksViewController.nib /Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Controllers/NewTasksViewController/NewTasksViewController.xib
+/* com.apple.ibtool.document.warnings */
+/Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Controllers/NewTasksViewController/NewTasksViewController.xib:kj5-OS-pLi: warning: Button Style before iOS 15.0 [5]
+
+CompileXIB /Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Controllers/SettingsViewController/SettingsViewController.xib (in target 'TrainingTask' from project 'TrainingTask')
+    cd /Users/tishkovskayavs/Desktop/TrainingTask
+    export XCODE_DEVELOPER_USR_PATH\=/Applications/Xcode.app/Contents/Developer/usr/bin/..
+    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --module TrainingTask --output-partial-info-plist /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/SettingsViewController-PartialInfo.plist --auto-activate-custom-fonts --target-device iphone --target-device ipad --minimum-deployment-target 11.0 --output-format human-readable-text --compile /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.app/SettingsViewController.nib /Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Controllers/SettingsViewController/SettingsViewController.xib
+/* com.apple.ibtool.document.warnings */
+/Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Controllers/SettingsViewController/SettingsViewController.xib:ylW-WL-R1K: warning: Button Style before iOS 15.0 [5]
+
+CompileXIB /Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Controllers/ProjectViewController/ProjectViewController.xib (in target 'TrainingTask' from project 'TrainingTask')
+    cd /Users/tishkovskayavs/Desktop/TrainingTask
+    export XCODE_DEVELOPER_USR_PATH\=/Applications/Xcode.app/Contents/Developer/usr/bin/..
+    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --module TrainingTask --output-partial-info-plist /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/ProjectViewController-PartialInfo.plist --auto-activate-custom-fonts --target-device iphone --target-device ipad --minimum-deployment-target 11.0 --output-format human-readable-text --compile /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.app/ProjectViewController.nib /Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Controllers/ProjectViewController/ProjectViewController.xib
+/* com.apple.ibtool.document.warnings */
+/Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Controllers/ProjectViewController/ProjectViewController.xib:Kiy-Qu-RkP: warning: Large Style before iOS 13.0 [9]
+
+CompileXIB /Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Controllers/NewProjectViewController/NewProjectViewController.xib (in target 'TrainingTask' from project 'TrainingTask')
+    cd /Users/tishkovskayavs/Desktop/TrainingTask
+    export XCODE_DEVELOPER_USR_PATH\=/Applications/Xcode.app/Contents/Developer/usr/bin/..
+    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --module TrainingTask --output-partial-info-plist /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/NewProjectViewController-PartialInfo.plist --auto-activate-custom-fonts --target-device iphone --target-device ipad --minimum-deployment-target 11.0 --output-format human-readable-text --compile /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.app/NewProjectViewController.nib /Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Controllers/NewProjectViewController/NewProjectViewController.xib
+/* com.apple.ibtool.document.warnings */
+/Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Controllers/NewProjectViewController/NewProjectViewController.xib:5fM-vv-dKn: warning: Button Style before iOS 15.0 [5]
+/Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Controllers/NewProjectViewController/NewProjectViewController.xib:jgc-s2-Z7V: warning: Large Style before iOS 13.0 [9]
+
+CompileXIB /Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Controllers/NewStaffViewController/NewStaffViewController.xib (in target 'TrainingTask' from project 'TrainingTask')
+    cd /Users/tishkovskayavs/Desktop/TrainingTask
+    export XCODE_DEVELOPER_USR_PATH\=/Applications/Xcode.app/Contents/Developer/usr/bin/..
+    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --module TrainingTask --output-partial-info-plist /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/NewStaffViewController-PartialInfo.plist --auto-activate-custom-fonts --target-device iphone --target-device ipad --minimum-deployment-target 11.0 --output-format human-readable-text --compile /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.app/NewStaffViewController.nib /Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Controllers/NewStaffViewController/NewStaffViewController.xib
+/* com.apple.ibtool.document.warnings */
+/Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Controllers/NewStaffViewController/NewStaffViewController.xib:rLL-JP-FfH: warning: Button Style before iOS 15.0 [5]
+
+CompileXIB /Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Controllers/MainViewController/MainViewController.xib (in target 'TrainingTask' from project 'TrainingTask')
+    cd /Users/tishkovskayavs/Desktop/TrainingTask
+    export XCODE_DEVELOPER_USR_PATH\=/Applications/Xcode.app/Contents/Developer/usr/bin/..
+    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --module TrainingTask --output-partial-info-plist /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/MainViewController-PartialInfo.plist --auto-activate-custom-fonts --target-device iphone --target-device ipad --minimum-deployment-target 11.0 --output-format human-readable-text --compile /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.app/MainViewController.nib /Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Controllers/MainViewController/MainViewController.xib
+/* com.apple.ibtool.document.warnings */
+/Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Controllers/MainViewController/MainViewController.xib:4sf-ZB-vHh: warning: Button Style before iOS 15.0 [5]
+/Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Controllers/MainViewController/MainViewController.xib:Mfk-u8-bzc: warning: Button Style before iOS 15.0 [5]
+/Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Controllers/MainViewController/MainViewController.xib:P2f-cK-tje: warning: Button Style before iOS 15.0 [5]
+/Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Controllers/MainViewController/MainViewController.xib:rLk-bo-TG9: warning: Button Style before iOS 15.0 [5]
+
+CompileStoryboard /Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Base.lproj/Main.storyboard (in target 'TrainingTask' from project 'TrainingTask')
+    cd /Users/tishkovskayavs/Desktop/TrainingTask
+    export XCODE_DEVELOPER_USR_PATH\=/Applications/Xcode.app/Contents/Developer/usr/bin/..
+    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --companion-strings-file ru:/Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/ru.lproj/Main.strings --module TrainingTask --output-partial-info-plist /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/Base.lproj/Main-SBPartialInfo.plist --auto-activate-custom-fonts --target-device iphone --target-device ipad --minimum-deployment-target 11.0 --output-format human-readable-text --compilation-directory /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/Base.lproj /Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Base.lproj/Main.storyboard
+
+CompileStoryboard /Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Base.lproj/LaunchScreen.storyboard (in target 'TrainingTask' from project 'TrainingTask')
+    cd /Users/tishkovskayavs/Desktop/TrainingTask
+    export XCODE_DEVELOPER_USR_PATH\=/Applications/Xcode.app/Contents/Developer/usr/bin/..
+    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --companion-strings-file ru:/Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/ru.lproj/LaunchScreen.strings --module TrainingTask --output-partial-info-plist /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/Base.lproj/LaunchScreen-SBPartialInfo.plist --auto-activate-custom-fonts --target-device iphone --target-device ipad --minimum-deployment-target 11.0 --output-format human-readable-text --compilation-directory /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/Base.lproj /Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Base.lproj/LaunchScreen.storyboard
+
+CompileAssetCatalog /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.app /Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Assets.xcassets (in target 'TrainingTask' from project 'TrainingTask')
+    cd /Users/tishkovskayavs/Desktop/TrainingTask
+    /Applications/Xcode.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/assetcatalog_dependencies --output-partial-info-plist /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/assetcatalog_generated_info.plist --app-icon AppIcon --accent-color AccentColor --compress-pngs --enable-on-demand-resources YES --development-region en --target-device iphone --target-device ipad --minimum-deployment-target 11.0 --platform iphoneos --compile /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.app /Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Assets.xcassets
+2022-03-15 16:29:03.183 ibtoold[14099:723047] DEBUG: Added to environment: {
+    TMPDIR = "/var/folders/lr/wwnlk15521928x9n8jbl4jjwg3lkpf/T/9377074A-44C0-4A4D-8E45-C434C2678F6D";
+}
+/* com.apple.actool.compilation-results */
+/Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/assetcatalog_generated_info.plist
+/Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.app/Assets.car
+
+
+LinkStoryboards (in target 'TrainingTask' from project 'TrainingTask')
+    cd /Users/tishkovskayavs/Desktop/TrainingTask
+    export XCODE_DEVELOPER_USR_PATH\=/Applications/Xcode.app/Contents/Developer/usr/bin/..
+    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --module TrainingTask --target-device iphone --target-device ipad --minimum-deployment-target 11.0 --output-format human-readable-text --link /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.app /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/Base.lproj/LaunchScreen.storyboardc /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/Base.lproj/Main.storyboardc
+
+ProcessInfoPlistFile /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.app/Info.plist /Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Info.plist (in target 'TrainingTask' from project 'TrainingTask')
+    cd /Users/tishkovskayavs/Desktop/TrainingTask
+    builtin-infoPlistUtility /Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Info.plist -producttype com.apple.product-type.application -genpkginfo /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -additionalcontentfile /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/SettingsViewController-PartialInfo.plist -additionalcontentfile /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/Base.lproj/LaunchScreen-SBPartialInfo.plist -additionalcontentfile /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/TasksCell-PartialInfo.plist -additionalcontentfile /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/NewTasksViewController-PartialInfo.plist -additionalcontentfile /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/ProjectViewController-PartialInfo.plist -additionalcontentfile /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/NewProjectViewController-PartialInfo.plist -additionalcontentfile /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/Base.lproj/Main-SBPartialInfo.plist -additionalcontentfile /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/TasksViewController-PartialInfo.plist -additionalcontentfile /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/MainViewController-PartialInfo.plist -additionalcontentfile /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/NewStaffViewController-PartialInfo.plist -additionalcontentfile /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/StaffViewController-PartialInfo.plist -additionalcontentfile /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/ProjectCell-PartialInfo.plist -additionalcontentfile /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/StaffCell-PartialInfo.plist -additionalcontentfile /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/assetcatalog_generated_info.plist -requiredArchitecture arm64 -o /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.app/Info.plist
+
+CopySwiftLibs /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.app (in target 'TrainingTask' from project 'TrainingTask')
+    cd /Users/tishkovskayavs/Desktop/TrainingTask
+    export CODESIGN_ALLOCATE\=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate
+    export DEVELOPER_DIR\=/Applications/Xcode.app/Contents/Developer
+    export SDKROOT\=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk
+    builtin-swiftStdLibTool --copy --verbose --scan-executable /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.app/TrainingTask --scan-folder /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.app/Frameworks --scan-folder /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.app/PlugIns --platform iphoneos --toolchain /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --destination /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.app/Frameworks --strip-bitcode --strip-bitcode-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip --emit-dependency-info /Users/tishkovskayavs/Desktop/TrainingTask/build/obj/TrainingTask.build/Release-iphoneos/TrainingTask.build/SwiftStdLibToolInputDependencies.dep --back-deploy-swift-concurrency
+Ignoring --strip-bitcode because --sign was not passed
+Copying /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.0/iphoneos/libswiftCoreGraphics.dylib to /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.app/Frameworks/libswiftCoreGraphics.dylib
+Copying /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.0/iphoneos/libswiftCoreFoundation.dylib to /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.app/Frameworks/libswiftCoreFoundation.dylib
+Copying /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.0/iphoneos/libswiftCoreImage.dylib to /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.app/Frameworks/libswiftCoreImage.dylib
+Copying /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.0/iphoneos/libswiftCore.dylib to /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.app/Frameworks/libswiftCore.dylib
+Copying /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.0/iphoneos/libswiftQuartzCore.dylib to /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.app/Frameworks/libswiftQuartzCore.dylib
+Copying /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.0/iphoneos/libswiftDispatch.dylib to /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.app/Frameworks/libswiftDispatch.dylib
+Copying /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.0/iphoneos/libswiftos.dylib to /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.app/Frameworks/libswiftos.dylib
+Copying /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.0/iphoneos/libswiftMetal.dylib to /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.app/Frameworks/libswiftMetal.dylib
+Copying /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.0/iphoneos/libswiftDarwin.dylib to /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.app/Frameworks/libswiftDarwin.dylib
+Copying /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.0/iphoneos/libswiftUIKit.dylib to /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.app/Frameworks/libswiftUIKit.dylib
+Copying /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.0/iphoneos/libswiftFoundation.dylib to /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.app/Frameworks/libswiftFoundation.dylib
+Copying /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift-5.0/iphoneos/libswiftObjectiveC.dylib to /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.app/Frameworks/libswiftObjectiveC.dylib
+
+GenerateDSYMFile /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.app.dSYM /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.app/TrainingTask (in target 'TrainingTask' from project 'TrainingTask')
+    cd /Users/tishkovskayavs/Desktop/TrainingTask
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.app/TrainingTask -o /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.app.dSYM
+
+RegisterExecutionPolicyException /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.app (in target 'TrainingTask' from project 'TrainingTask')
+    cd /Users/tishkovskayavs/Desktop/TrainingTask
+    builtin-RegisterExecutionPolicyException /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.app
+
+Validate /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.app (in target 'TrainingTask' from project 'TrainingTask')
+    cd /Users/tishkovskayavs/Desktop/TrainingTask
+    builtin-validationUtility /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.app
+
+Touch /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.app (in target 'TrainingTask' from project 'TrainingTask')
+    cd /Users/tishkovskayavs/Desktop/TrainingTask
+    /usr/bin/touch -c /Users/tishkovskayavs/Desktop/TrainingTask/build/sym/Release-iphoneos/TrainingTask.app
+
+** BUILD SUCCEEDED **
+

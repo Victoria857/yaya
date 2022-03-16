@@ -1,0 +1,77 @@
+{
+  "_buildCommand2" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildOnly"
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "5c213a925afc7d729ef2c7ae177250b14c4162f73287a14901c3cb7c24db5d9b"
+    }
+  ],
+  "containerPath" : "/Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64e",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : true,
+      "platform" : "iphoneos",
+      "sdk" : "iphoneos15.2",
+      "sdkVariant" : "iphoneos",
+      "supportedArchitectures" : [
+        "armv4t",
+        "armv5",
+        "armv6",
+        "armv7",
+        "armv7f",
+        "armv7s",
+        "armv7k",
+        "arm64",
+        "arm64e"
+      ],
+      "targetArchitecture" : "arm64e"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/tishkovskayavs/Desktop/TrainingTask/build/derivedData/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/tishkovskayavs/Desktop/TrainingTask/build/derivedData/Build/Products",
+      "derivedDataPath" : "/Users/tishkovskayavs/Desktop/TrainingTask/build/derivedData",
+      "indexDataStoreFolderPath" : "/Users/tishkovskayavs/Desktop/TrainingTask/build/derivedData/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/tishkovskayavs/Desktop/TrainingTask/build/derivedData/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/tishkovskayavs/Desktop/TrainingTask/build/derivedData/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+          "CODE_SIGN_IDENTITY" : "",
+          "CODE_SIGNING_ALLOWED" : "NO",
+          "CODE_SIGNING_REQUIRED" : "NO",
+          "COMPILER_INDEX_STORE_ENABLE" : "NO",
+          "DSTROOT" : "/Users/tishkovskayavs/Desktop/TrainingTask/build/dst",
+          "OBJROOT" : "/Users/tishkovskayavs/Desktop/TrainingTask/build/obj",
+          "SHARED_PRECOMPS_DIR" : "/Users/tishkovskayavs/Desktop/TrainingTask/build/shared",
+          "SYMROOT" : "/Users/tishkovskayavs/Desktop/TrainingTask/build/sym"
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "build",
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

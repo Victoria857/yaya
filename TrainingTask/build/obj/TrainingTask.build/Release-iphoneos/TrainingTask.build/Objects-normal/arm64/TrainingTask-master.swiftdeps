@@ -1,0 +1,21 @@
+version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
+options: "917371b71035dca77f28e110fce9ffa1605297a5c6a0a78f0157ec977828f850"
+build_start_time: [1647350938, 185796976]
+build_end_time: [1647350941, 911617040]
+inputs:
+  "/Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/AppDelegate.swift": [1647244456, 100247859]
+  "/Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Controllers/MainViewController/MainViewController.swift": [1647247589, 697605848]
+  "/Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Controllers/NewProjectViewController/NewProjectViewController.swift": [1646383162, 281680107]
+  "/Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Controllers/NewStaffViewController/NewStaffViewController.swift": [1646911110, 615520477]
+  "/Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Controllers/NewTasksViewController/NewTasksViewController.swift": [1647247919, 956507205]
+  "/Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Controllers/ProjectViewController/ProjectViewController.swift": [1646728629, 646350860]
+  "/Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Controllers/SettingsViewController/SettingsViewController.swift": [1646039279, 754767656]
+  "/Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Controllers/StaffViewController/StaffViewController.swift": [1646989793, 266324520]
+  "/Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Controllers/TasksViewController/TasksViewController.swift": [1646760234, 813876867]
+  "/Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Models/BaseProject.swift": [1646308399, 520037651]
+  "/Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Models/BaseStaff.swift": [1646294515, 503480195]
+  "/Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/Models/BaseTask.swift": [1646389744, 745929241]
+  "/Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/NetworkManager.swift": [1646391449, 333884239]
+  "/Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/TableCells/ProjectCell/ProjectCell.swift": [1646380798, 69548606]
+  "/Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/TableCells/StaffCell/StaffCell.swift": [1646294628, 185525894]
+  "/Users/tishkovskayavs/Desktop/TrainingTask/TrainingTask/TableCells/TasksCell/TasksCell.swift": [1646389744, 734715938]
